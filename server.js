@@ -12,7 +12,6 @@ let db = new sqlite3.Database('./private/db/database.db', (err) => {
   if (err) {
     return console.error(err.message);
   }
-  //db.run('CREATE TABLE teams(name text, members text, rank integer, league text)');
 });
 
 //app.use(express.static('public'));
