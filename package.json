@@ -1,0 +1,29 @@
+{
+  "name": "leaguesites",
+  "version": "1.0.0",
+  "description": "A site used for me to show off my league sites.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flaymed/leaguesites.git"
+  },
+  "keywords": [
+    "leaguesites",
+    "leagues"
+  ],
+  "author": "Mark Viggiano (Flaymed)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flaymed/leaguesites/issues"
+  },
+  "homepage": "https://github.com/Flaymed/leaguesites#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.0",
+    "url": "^0.11.0"
+  }
+}
