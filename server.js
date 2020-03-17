@@ -22,12 +22,35 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
+//for ejs use '../filepath' and don't include .ejs
+
+//Homepage
 app.get('/', function(req, res) {
   res.render('../public/html/home');
 });
 
+app.get('/home', function(req, res) {
+  res.render('../public/html/home');
+});
+
+//Plans Loader
+
+app.get('/plans', function(req, res) {
+  res.render('../public/html/plans');
+});
+
+//Css and JavaScript loader
 app.get('/main.css', function(req, res) {
   res.sendFile(__dirname + '/public/css/main.css');
+});
+
+//Assets loader
+app.get('/assets/Computer.png', function(req, res) {
+  res.sendFile(__dirname + '/assets/Computer.png');
+});
+
+app.get('/assets/Logo.png', function(req, res) {
+  res.sendFile(__dirname + '/assets/League Sites Logo.png');
 });
 
 //Listen the app on port 8080

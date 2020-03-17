@@ -4,7 +4,7 @@
   "description": "A site used for me to show off my league sites.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js && python test.py"
   },
   "repository": {
     "type": "git",

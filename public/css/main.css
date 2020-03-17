@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/*
+=============
+navbar
+=============
+*/
+
+.navbar-dark {
+  background-color: #3d6ab2!important;
+  font-family: 'Manjari', sans-serif;
+  font-size: 20px;
+}
+
+/*
+=============
+card
+=============
+*/
+
+.card {
+  font-family: 'Manjari', sans-serif;
+}
+
+.card-header {
+  background-color: #3d6ab2;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content {
+  margin: 5px;
+  padding: 5px;
+}
+
+/*
+=============
+text
+=============
+*/
+
+span.logo {
+  color: #3d6ab2;
+  font-weight: bold;
 }
